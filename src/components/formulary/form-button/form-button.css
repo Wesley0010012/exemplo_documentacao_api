@@ -1,0 +1,9 @@
+.form-button {
+  border-radius: 10px;
+  width: 225px;
+  height: 65px;
+  color: white;
+  font-size: 28px;
+  font-weight: 400;
+  border: 0;
+}

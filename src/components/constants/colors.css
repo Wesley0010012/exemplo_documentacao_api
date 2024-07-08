@@ -1,0 +1,12 @@
+.primary-red {
+  background-color: #b94446;
+  transition: 0.5s;
+}
+
+.primary-red:hover {
+  background-color: #ad2628;
+}
+
+button {
+  cursor: pointer;
+}
