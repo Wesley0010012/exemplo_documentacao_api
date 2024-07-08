@@ -1,4 +1,4 @@
-const FormularyConfig = {
+const LoginFormularyConfig = {
   title: "Api Clientes - Login",
   inputs: [
     {
@@ -20,4 +20,4 @@ const FormularyConfig = {
   },
 };
 
-module.exports = FormularyConfig;
+module.exports = LoginFormularyConfig;

@@ -1,18 +1,18 @@
 import "./login-formulary.css";
 
-import FormularyConfig from "../formulary.config";
+import LoginFormularyConfig from "../login-formulary.config";
 
 import FormInput from "../form-input/form-input";
 import FormButton from "../form-button/form-button";
 
 const LoginFormulary = () => {
-  const inputs = FormularyConfig.inputs;
-  const button = FormularyConfig.button;
+  const inputs = LoginFormularyConfig.inputs;
+  const button = LoginFormularyConfig.button;
 
   return (
     <form className="login-formulary">
       <div className="form-title">
-        <h1>{FormularyConfig.title}</h1>
+        <h1>{LoginFormularyConfig.title}</h1>
       </div>
       <div className="form-body">
         {inputs.map((input) => (
